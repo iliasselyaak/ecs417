@@ -1,0 +1,67 @@
+body{
+    background:#092327;
+    font-family: monospace;
+}
+
+/*********************************************************************************************************/
+hgroup{
+    margin: 0em 4.5em;
+    background: #5289A3;
+    padding: 1em;
+}
+hgroup h1{
+    font-size: 2em;
+    color:#E4EDF1;
+}
+hgroup h2{
+    font-size: 1.2em;
+    color:#081521;
+}
+/***************************************************************************************************************/
+.topLinks{
+    margin: 0em 4.5em;
+    background: #92B7C8;
+    padding: 0.4em;
+}
+
+.topLinks a{
+    padding: 1em;
+    font-size: 1.5em;
+    
+}
+/***********************************************************************************************************************/
+
+#biography{
+    margin: 1.3em 4.1em;
+    background: #EEFAFB;
+    padding: 10px;
+    font-size: 1.1em;
+}
+
+#biography h3{
+    font-size: 1.3em;
+    border-bottom: 1pt solid #66999e;
+}
+
+section{
+    padding:0.4em;
+}
+img{
+    border: 1pt solid;
+}
+figcaption{
+    color:#081521;
+}
+a{
+    color: #094846;
+    font-size: 1.2em;
+}
+
+/******************************************************************************************************************************/
+footer{
+    margin: 0em 3.8em;
+    padding:1em;
+    background: #5289A3;
+    color:#E4EDF1;
+    font-size: 1.2em;
+}

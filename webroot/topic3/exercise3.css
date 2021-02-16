@@ -1,0 +1,13 @@
+.p1{
+    background-color: pink;
+    /*foreground coulour of blue*/
+    font-family: serif;
+    font-size: 12pt;
+}
+
+.p2{
+    background-color: green;
+    /*foreground colour of white*/
+    font-family: fantasy;
+    font-size: 14pt;
+}
