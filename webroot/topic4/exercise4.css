@@ -1,0 +1,30 @@
+body{
+    font-family: monospace;;
+}
+form{
+    margin-inline:8em;
+    background-color: #EEFAFB;
+}
+legend{
+    background-color: #5289A3;
+    color: #E4EDF1;
+    text-align:center;
+    width:100%;
+    font:bold;
+    font-size: 1.2em;
+}
+fieldset{
+    border: solid 1pt blue;
+    padding: 1em;
+    margin-bottom: 1em;
+}
+footer{
+    background-color: white;
+}
+
+.buttons{
+    text-align: center;
+}
+footer input{
+    padding-inline:1em;
+}

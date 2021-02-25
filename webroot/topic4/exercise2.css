@@ -1,0 +1,25 @@
+table,tr,td,th,td{
+    border: 0.5pt solid grey;
+    text-align:center; 
+    vertical-align: middle;
+    font-family: Arial;
+    padding: 0.2em;
+}
+
+th{
+    background-color: rgb(108, 180, 180);
+
+}
+
+caption{
+    color: white;
+    background-color: red;
+    padding: 0.8em;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+img{
+    border-radius: 1em;
+    width: 6em;
+}

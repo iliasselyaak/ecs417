@@ -1,0 +1,14 @@
+table,tr,td,th,td{
+    border: 0.5pt solid grey;
+}
+thead,tfoot{
+    background-color: rgb(247, 185, 185);
+}
+tbody{
+    background-color: white;
+}
+caption{
+    font-weight: bold;
+    background-color: rgb(34, 104, 89);
+    padding: 0.5em;
+}
