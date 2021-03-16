@@ -1,0 +1,121 @@
+
+.test{
+    border: solid 1px;
+    background-color: white;
+  }
+/*****************Three column layout with absolute positioning****************************************************************/
+div#main{
+    position: absolute;
+    left:15em;
+    right:15em;
+    top:2em;
+}
+.right{
+    position: absolute;
+    display: block;
+    right: 0;
+    top:2em;
+    width: 15em;
+}
+.left{
+    position: absolute;
+    display: block;
+    left:0;
+    top:2em;
+    width: 15em;
+}
+/**********************Navigation float***********************************************************/
+header{
+    display:block;
+    float: left;
+    width: 100%;
+}
+
+/***********************Main column float******************************************************/
+div img{
+    float:right;
+}
+
+.education{
+    padding-top: 8em;
+}
+/*******************************List float****************************************************/
+.leftList img{
+    display: block;
+    margin:0;
+    float:left;
+    width: 3.5em;
+
+}
+.leftList p{
+    margin-left:3.5em;
+    padding-bottom: 3em;
+}
+/**********************Styling***********************/
+body{
+    font-family: monospace;
+}
+ul{
+    list-style-type: none;
+}
+header li{
+    display: inline;
+    padding-right: 1.2em;
+}
+header{
+    background-color:#92B7C8;
+    padding:0.2em;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-left: 0.5em;
+}
+.name a{
+    color:black;
+}
+
+.left section{
+    background-color: #def6fa;
+    margin-bottom: 1.5em;
+    margin-right: 1.5em;
+    padding: 1.2em;
+}
+.research{
+    color:#eb7434;
+}
+.right section{
+    background-color: #def6fa;
+    margin-bottom: 1.5em;
+    padding: 1.2em;
+
+}
+div{
+    padding-right:1.5em;
+}
+
+.leftList h3{
+    background-color: #5289A3;
+    color:white;
+    padding: 0.8em;
+}
+.leftList{
+    background-color: white;
+}
+.rightList h3{
+    background-color: #5289A3;
+    color:white;
+    padding: 0.8em;
+}
+.rightList{
+    background-color: white;
+}
+.rightList p{
+    padding-top: 0.5em;
+}
