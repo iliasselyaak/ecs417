@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top:20%;
+    left:38%;
+    background-color:#092327 ;
+}
+
+form{
+    background-color:hsl(199, 33%, 48%);
+    padding: 3.5em 8em;
+}
+
+legend{
+    font-weight: bold;
+    font-size: 1.8em;
+    padding-bottom: 1em;
+}
+p{
+    padding-bottom: 1em;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    width: 100%;
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+footer{
+    text-align: center;
+}
+
+
+button{
+    color: white;
+    border:none;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    left:88%;
+    background-color:#092327;
+}

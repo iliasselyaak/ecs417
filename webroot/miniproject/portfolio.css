@@ -1,0 +1,240 @@
+
+/******************Navigation Bar*************************/
+
+.navBar{
+    display:block;
+    float: left;
+    width: 100%;
+    background-color:#333333;
+    padding-block:1em;
+}
+
+.navRight{
+    display:block;
+    float: right;
+    margin-inline: 1em;
+}
+
+
+.navBar li{
+    display: inline;
+    padding-right: 2em;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.name a{
+    font-size: 1.2em;
+    padding-left: 1.2em;
+    font-weight: bold;
+}
+/**********************Background******************************************/
+.background{
+    position: relative;
+    width: 100%;
+    height: 50em;
+    text-align: center;
+}
+
+.portrait{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    width: 20em;
+    z-index: 1;
+}
+
+hgroup{
+    position: absolute;
+    top:25%;
+    left:20%;
+    z-index: 1;
+    font-size: 4em;
+    padding-right: 15em;
+    font-family: monospace;
+    color: whitesmoke;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+hgroup h3{
+    font-weight:lighter;
+    font-style: italic;
+    padding-top: 0.5em;
+}
+figcaption{
+    position: absolute;
+    top: 65%;
+    left: 63%;
+    width: 20em;
+    z-index: 1;
+    font-size: 1.4em;
+    font-family: monospace;
+    color: whitesmoke;
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    font-weight: bold;
+}
+
+.downArrow{
+    width: 5em;
+    position: relative;
+    left: 50%;
+}
+/**************************About me*******************************************/
+
+#about_me h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    padding: 0.3em;
+    border-left: 5px solid #92B7C8;
+    margin-left: 0.5em;
+}
+
+#about_me p{
+    margin-inline: 15em;
+    font-size: 1.8em;
+    font-family: 'Margarine', cursive;
+    border-bottom: solid black;
+    padding-bottom: 1em;
+}
+
+/******************************Skills*******************************************/
+#skills h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    padding: 0.3em;
+    border-left: 5px solid #92B7C8;
+    margin-left: 0.5em;
+}
+
+#skills img{
+    position:relative;
+    left: 32.5%;
+}
+
+/**************************Education***********************************/
+#education h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    padding: 0.3em;
+    border-left: 5px solid #92B7C8;
+    margin-left: 0.5em;
+}
+
+#education table{
+    margin: 2em;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+}
+
+#education th,td{
+    padding: 1.5em;
+    padding-right: 1em;
+}
+
+/**************************Experience****************************************/
+#experience h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    padding: 0.3em;
+    border-left: 5px solid #92B7C8;
+    margin-left: 0.5em;
+}
+
+#experience table{
+    margin: 2em;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2em;
+}
+
+#experience th,td{
+    padding: 1.5em;
+    padding-right: 1em;
+}
+
+/***************************Projects**************************************/
+#projects h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    padding: 0.3em;
+    border-left: 5px solid #92B7C8;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+
+#projects h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    padding: 0.3em;
+}
+
+#projects p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin:3em;
+}
+#projects img{
+    margin-left: 5em;
+    width: 50em;
+}
+
+/***************************Blog*****************************************/
+#blog h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    padding: 0.3em;
+    border-left: 5px solid #92B7C8;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+
+button{
+    color: white;
+    border:none;
+    padding: 1em 2em;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    position:relative;
+    left:88%
+}
+
+.login{
+    background-color: green;
+}
+.addPost{
+    background-color: blue;
+}
+/*************************Footer*****************************/
+footer{
+    margin-top: 2em;
+    background-color:#333333;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding:2em;
+}
+
+footer h3{
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+footer img{
+    width:3em;
+}
+
+footer li{
+    display: inline;
+    padding: 1em;
+}
