@@ -9,6 +9,7 @@ body{
 form{
     background-color:hsl(199, 33%, 48%);
     padding: 3.5em 8em;
+    padding-right:10em; 
 }
 
 legend{
