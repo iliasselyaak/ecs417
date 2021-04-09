@@ -5,6 +5,7 @@
         <title>Add Post</title>
         <link rel="stylesheet" href="reset.css" type="text/css"/>
         <link rel="stylesheet" href="addPost.css" type="text/css"/>
+        <script src="addPost.js"></script>
     </head>
     <body>
         <form method="POST" action="addPost.php">
@@ -12,19 +13,20 @@
                 <legend>Add Blog</legend>
                 <p>
                     <label>Title</label><br>
-                    <input type="text" name="title" placeholder="Enter Title">
+                    <input type="text" id="title" name="title" placeholder="Enter Title">
                 </p>
                 <p>
                     <label>Text</label><br>
-                    <textarea name="blogText" placeholder="Enter text here"></textarea>
+                    <textarea name="blogText" id="blogText" placeholder="Enter text here"></textarea>
                 </p>
             </fieldset>
             <footer>
-                <p class="button">
-                    <br><a><button>Post</button></a>
-                    <a><button>Clear</button></a>
+                <p class="buttons">
+                    <br><input type="submit" id="post" value="Post">
+                    <input type="reset" value="Clear" onclick="return clearFields();">
                 </p>
             </footer>
+            <script src="addPost.js"></script>
         </form>
     </body>
 </html>

@@ -17,6 +17,7 @@ legend{
     font-size: 1.8em;
     padding-bottom: 1em;
 }
+
 p{
     padding-bottom: 1em;
 }
@@ -25,6 +26,7 @@ label{
     font-weight: bold;
 }
 
+
 input, textarea{
     width: 100%;
     border-radius: 4px;
@@ -32,18 +34,18 @@ input, textarea{
     margin: 8px 0;
 }
 
+
 footer{
     text-align: center;
 }
 
-
-button{
+.buttons input{
     color: white;
     border:none;
-    padding: 1em 2em;
     text-align: center;
     text-decoration: none;
     cursor: pointer;
     left:88%;
     background-color:#092327;
+    width: 40%;
 }
