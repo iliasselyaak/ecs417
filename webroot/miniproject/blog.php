@@ -105,7 +105,7 @@
                             echo "<p class='displayMonth'>Displaying ".$month." posts.</p>";
                             $count = count($data);
                             for($i=0; $i< $count;$i++){
-                                if(!str_contains($data[$i]['date'],$month))
+                                if(!strpos($data[$i]['date'],$month))
                                     unset($data[$i]);
                             }
                         }
