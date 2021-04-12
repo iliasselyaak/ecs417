@@ -3,7 +3,7 @@
     <head>
 <style>
     <?php include "reset.css" ?>
-    <?php include "login.css" ?>
+    <?php include "addEntry.css" ?>
 </style>
 </head>
 <body>
@@ -21,28 +21,29 @@
         die("Connection failed: " . $conn->connect_error);
     }
 
+    
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
-        //Storing form credentials
-        $email = $_POST['email'];
-        $password = $_POST['password'];
-        
-        //create query
-        $sql = "SELECT * FROM CREDENTIALS WHERE email = '$email' AND password = '$password'";
+       //Storing form details
+        $title = $_POST['title'];
+        $blogText = $_POST['blogText'];
 
-        $result = $conn->query($sql);
-        if($result->num_rows==1)
+        //create query
+        date_default_timezone_set('Etc/GMT-1');
+        $date = date("jS \of F Y, H:i") ." BST";
+        $sql = "INSERT INTO BLOG (title, postText, date) VALUES ('$title','$blogText','$date')";
+
+        if($conn->query($sql) === TRUE)
         {
-            session_start();
-            $_SESSION['isLogged'] = "true";
-            echo "<h2>Login Successful</h2>
-            <a href='addPost.php' class='button'>Add Post</a>";
+            echo "<h2>Post has been submitted successfully!</h2>
+            <a href='blog.php' class='button'>Check Post</a>";
         }
         else{
-            echo "<h2>Login failed!</h2>
-            <a href='login.html' class='button'>Try again</a>
+            echo "The server has failed to post!
+            <a href='addPost.php' class='button'>Try again</a>
             <a href='blog.php' class='button'>Return to Blog</a>";
 
         }
+
         $conn->close();
     }
 ?>

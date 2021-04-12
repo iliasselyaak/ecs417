@@ -238,3 +238,54 @@ footer li{
     display: inline;
     padding: 1em;
 }
+/*************************Blog Posts*********************************/
+
+#posts{
+    background-color:hsl(199, 33%, 48%);
+    width: 85%;
+    text-align: center;
+    margin-inline: 8em;
+    font-family: monospace;
+    margin-top: 2em;
+}
+
+.title{
+    font-size: 2em;
+    text-align: left;
+    padding-left: 5em;
+}
+
+.postText{
+    text-align: left;
+    padding-left: 5em;
+    font-size: 1.3em;
+}
+
+.date{
+    text-align: right;
+    border-bottom: #333333 3pt solid;
+}
+
+.sortForm{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.sort{
+    background-color: #34a4eb;
+    border: none;
+    color: white;
+    padding: 0.8em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    margin-left:1.2em;
+}
+
+.displayMonth{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin: 1.2em;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.3em;
+}
