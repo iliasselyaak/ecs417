@@ -30,7 +30,7 @@
         //create query
         date_default_timezone_set('Etc/GMT-1');
         $date = date("jS \of F Y, H:i") ." BST";
-        $sql = "INSERT INTO BLOG (title, postText, date) VALUES ('$title','$blogText','$date')";
+        $sql = "INSERT INTO BLOGS (title, postText, date) VALUES ('$title','$blogText','$date')";
 
         if($conn->query($sql) === TRUE)
         {

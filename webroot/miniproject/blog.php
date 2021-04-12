@@ -84,7 +84,7 @@
                         die("Connection failed: " . $conn->connect_error);
                     }
                     //Sql Query
-                    $sql = "SELECT * FROM BLOG";
+                    $sql = "SELECT * FROM BLOGS";
                     $result = $conn->query($sql);
 
                     //Store all data into an associative array with fetch_assos()
